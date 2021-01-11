@@ -390,7 +390,9 @@ body {
     position: absolute;
     left: 0;
     width: 166px;
-    border: 2px solid #000000;
+    outline: 2px solid #000000;
+    ;
+    outline-offset: -2px;
     font-size: 16px;
     line-height: 20px;
     color: #000000;
@@ -402,7 +404,7 @@ body {
 }
 
 .press-item dl a:hover {
-    border: none;
+    outline: none;
 }
 
 /* <<PEGA-HEADER-6-STYLES>> */
