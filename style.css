@@ -196,7 +196,7 @@ body {
 .details {
     display: inline-block;
     width: 145px;
-    padding: 20px 5px;
+    padding: 22px 7px;
     margin-left: 25px;
     font: inherit;
     text-align: center;
@@ -204,13 +204,14 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     word-wrap: break-word;
-    border: 2px solid #834700;
     font-size: 16px;
     line-height: 20px;
+    outline: 2px solid #834700;
+    outline-offset: -2px;
 }
 
 .details:hover {
-    border: none;
+    outline: none;
 }
 
 .buy {
